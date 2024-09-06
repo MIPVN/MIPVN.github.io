@@ -8,20 +8,27 @@ layout: default
       <img class='img-responsive center-block' src="/images/home/2024_01_all_members.jpg" width="100%" height="100%" />
       
       <!-- <p style="font-size: 24px;">  -->
-      <h1> Welcome to MIPVN Lab! </h1>
-      <p> Multimodal Information Perception and Visual Navigation Lab is a research group directed by Prof. Xiaoyan Luo at Image Processing Center, School of Astronautics, Beihang University, China.</p>
-      <p> Our Research is foucused on: </p>
+      <h1 style="text-align: left;"> Welcome to MIPVN Lab! </h1>
+      <p></p>
+      <p style="text-align: justify;"> Multimodal Information Perception and Visual Navigation Lab is a research group directed by Prof. Xiaoyan Luo at Image Processing Center, School of Astronautics, Beihang University, China.</p>
+      <hr> <!-- 上方的横线 -->
+      <h3 style="text-align: left;"> Research foucus: </h3>
       <p>
       <i>
         Multimodal Information Perception. <br> 
-        Visual Navigation.<br>
-        and Remote Sensing Image Processing.</i>
-
-        <span style="display: block; margin-bottom: 3em"></span>
-
+        Visual  language Navigation.<br>
+        Remote Sensing Image Processing.<br>
+        Medical Image Processing.
+      </i>
       </p>
+      <hr> <!-- 下方的横线 -->
 
-      <p>
+      <span style="display: block; margin-bottom: 3em"></span>
+
+      
+
+      <h3 style="text-align: left;"> Recruitment and Incentives: </h3>
+      <p style="text-align: justify;">
         We warmly welcome students with a pioneering and innovative spirit, as well as a diligent 
         and studious attitude, to join our research group for graduate-level research and 
         undergraduate research intenship. 
@@ -30,14 +37,16 @@ layout: default
         master's and doctoral students, with the laboratory covering related expenses.
       </p>
 
+      <span style="display: block; margin-bottom: 3em"></span>
+
       <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
         <div style="text-align:left">
           <h3> Recent News </h3>
-          <u>Happenings of the last few months</u>
+          <!--<u>Happenings of the last few months</u> -->
           <span style="display: block; margin-bottom: 1em"></span>
           <div class="news">
               {% capture now %}{{'now' | date: '%s' | minus: 7776000 }}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
+              <ul style="list-style-position:outside;padding:18px" >
                 {% for new in site.data.news %}
                   {% capture date %}{{new.date | date: '%s' | plus: 0 }}{% endcapture %}
                   {% if date > now %}
@@ -62,7 +71,7 @@ layout: default
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
 
       <span style="display: block; margin-bottom: 3em"></span>
-      Department of AeroSpace Information Engineering of Neuroscience at Beihang University
+      Department of AeroSpace Information Engineering at Beihang University
       <span style="display: block; margin-bottom: 3em"></span>
 
     </header>

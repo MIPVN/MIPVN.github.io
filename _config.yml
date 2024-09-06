@@ -3,9 +3,9 @@
 # # # # # # # #
 
 # Basic
-name:               <strong>多模信息感知与视觉导航实验室</strong>
+name:               <strong>MIPVN</strong>
 title:              "Multimodal Information Perception and Visual Navigation Lab at the Beihang University"
-description:        "The Luoxiaoyan Lab is a computer vision research group at Beihang University."
+description:        "The MIPVN Lab is a computer vision research group at Beihang University lead by professor Luo."
 
 # URL
 url:                https://mipvn.github.io/
