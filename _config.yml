@@ -1,0 +1,68 @@
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
+
+# Basic
+name:               <strong>多模信息感知与视觉导航实验室</strong>
+title:              "Multimodal Information Perception and Visual Navigation Lab at the Beihang University"
+description:        "The Luoxiaoyan Lab is a computer vision research group at Beihang University."
+
+# URL
+url:                https://luoxy-lab.github.io/
+baseurl:            
+#baseurl:            "" #For Root Domain  根目录
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           kramdown
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:            <strong>home </strong>    #生成网页大纲以及对应的文件位置
+    href:           "/"
+  - name:            <strong>about</strong>
+    href:           "/about"
+  - name:            <strong>publications</strong>
+    href:           "/publication"
+  - name:            <strong>people</strong>
+    href:           "/people"
+  - name:            <strong>pictures</strong>
+    href:           "/pictures"
+#   - name:           "abstracts"
+#     href:           "/abstracts"
+  - name:            <strong>lab teachings</strong>
+    href:           "/presentations"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"  #布局类型
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "profile" #啥也不是
+
+
+collections:
+  people:
+    output: true
+    permalink: /people/:title/index.html
