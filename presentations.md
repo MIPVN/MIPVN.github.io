@@ -3,20 +3,24 @@ title: Reference
 permalink: /presentations/
 ---
 
-### Upcoming lab meetings
+# Lab meetings!
 
-Every Friday at 13:30 EST, we get together (mix of virtual and in person) for lab presentations (with food! sometimes).
+Every Monday at 9:00 a.m, we get together (mix of virtual and in person) for lab presentations (with food! sometimes).
 On a rotating basis, each member of the lab speaks and teaches about something they know or shares their work. 
 Anything, really. Relevant and interesting topics, good skills to know, nice Python packages,
 neuroscientific princples, new findings and literature reviews... anything!
 
-Get on the [listserv for announcements](https://groups.google.com/forum/#!forum/kording-lab-teachings)
+<div style="border-top: 2px dashed gray; width: 100%; margin: 20px 0;"></div>
+
 
 ### Spring 2024
 {% raw %}
 | Date | Name | Topic |
 |------|------|-------|
-| Jan 16 [Tues] | Konrad K | TBD |
+| Sep 9 | --- | Lab Meeting |
+
+
+<!-- 
 | Jan 26 [Fri] | K-lab retreat | N/A |
 | Feb 2 | Lab business | Discussion |
 | Feb 9 |Joey R. | Conformal Prediction |
@@ -28,12 +32,36 @@ Get on the [listserv for announcements](https://groups.google.com/forum/#!forum/
 | Mar 22 | Tony | "Modern" Causal Inference |
 | Mar 29 | ... | ... |
 | Apr 5 |Felipe P | sts experiments, tracking |
-| Apr 12 | Joey | How to program a brain |
-| Apr 19 | 
-| Apr 26 | ... | ... |
-| May 3 | ... | ... |
+| Apr 12 | Joey | How to program a brain | -->
 
-{% endraw %}
+<!-- 
+一月 January = Jan
+
+二月 February = Feb
+
+三月 March = Mar
+
+四月 April = Apr
+
+五月 May = May
+
+六月 June = Jun
+
+七月 July = Jul
+
+八月 August = Aug
+
+九月 September = Sep / Sept
+
+十月 October = Oct
+
+十一月 November = Nov
+
+十二月 December = Dec -->
+
+
+
+<!-- {% endraw %}
 
 {% assign reference_types = "scientists|students" | split: "|" %}
 
@@ -74,4 +102,21 @@ Get on the [listserv for announcements](https://groups.google.com/forum/#!forum/
   {% endfor %}
 </div>
 
-<hr>
+<hr> -->
+
+<div style="border-top: 2px dashed gray; width: 100%; margin: 20px 0;"></div>
+
+
+<!-- 展示写的短文 -->
+<h3> Blogs <h3>
+<div class="content list">
+  {% for post in site.posts %}
+    {% if post.categories contains 'blog' %}
+    <div class="list-item">
+      <p class="list-post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a> (<small>{{post.date | date: "%y/%m/%d" }}</small>)
+      </p>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>

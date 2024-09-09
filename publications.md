@@ -2,24 +2,63 @@
 title: Publication
 permalink: /publication/
 ---
+
+<h1 style="text-align: left;"> <b> Our publications! </b></h1>
+
 <br>
-For those interested in numbers, see Xiaoyan Luo's [google scholar citations profile](https://scholar.google.com/citations?user=QiSauecAAAAJ&hl=zh-CN).
+For those interested in papers, see <a href="https://scholar.google.com/citations?user=QiSauecAAAAJ&hl=zh-CN"> <strong>Prof. Luo's</strong> </a>google scholar citations profile.
 
 We try to include links for all of our papers. Some of the links open PDFs, others direct you to a journal's site where that particular publication is available for download. If you cannot access one of our papers, let us know. The copyright notice for these papers is listed at the bottom of the page.
 
-<hr>
+<span style="display: block; margin-bottom: 3em"></span>
+
+<!-- 虚线 -->
+<!-- <div style="border-top: 2px dashed gray; width: 100%; margin: 20px 0;"></div> -->
+<!-- 双线 -->
+<!-- <div style="border-top: 3px double #333; width: 100%; margin: 20px 0;"></div> -->
+<!-- 渐变线条 -->
+<!-- <div style="border-top: 3px solid; width: 100%; margin: 20px 0; border-image: linear-gradient(to right, #ff7e5f, #feb47b) 1;"></div> -->
+<!-- 阴影线条 -->
+<!-- <div style="height: 2px; background: #333; box-shadow: 0 1px 5px rgba(0,0,0,0.3); margin: 20px 0;"></div> -->
+<!-- 绿色的点状线条 -->
+<div style="border-top: 2px dotted #6EACDA; width: 100%; margin: 20px 0;"></div>
+<!-- 带有图标的分割线 -->
+<div style="text-align: center; margin: 20px 0;">
+    <span style="font-size: 24px; color: #4CAF50;">📃</span> 
+    <span style="border-top: 5px solid #6EACDA; width: 85%; display: inline-block; margin: 0 10px;"></span>
+    <span style="font-size: 24px; color: #4CAF50;">📃</span>
+</div>
+<div style="border-top: 2px dotted #6EACDA; width: 100%; margin: 20px 0;"></div>
+
+<span style="display: block; margin-bottom: 2em"></span>
+
+<!-- 渐变色的波浪形线条 -->
+<!-- <div style="width: 100%; height: 4px; background: linear-gradient(to right, #ff7e5f, #feb47b); margin: 20px 0; border-radius: 2px;"></div> -->
+
+<!-- 实验室主题的虚线样式 -->
+<!-- <div style="border-top: 4px dotted #3f51b5; width: 100%; margin: 20px 0; padding-top: 5px; text-align: center;">
+    <span style="background-color: white; padding: 0 10px; color: #3f51b5; font-weight: bold;">Lab Info</span>
+</div> -->
+
+<!-- 带有图像背景的线条 -->
+<!-- <div style="width: 100%; height: 8px; background-image: url('https://example.com/path/to/science-pattern.png'); background-size: contain; margin: 20px 0;"></div>
+<div style="height: 4px; background: rgba(0, 150, 136, 0.5); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); margin: 20px 0;"></div> -->
+
+
+
+
 <div>
     <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiSauecAAAAJ&citation_for_view=QiSauecAAAAJ:fPk4N6BV_jEC"><h4>Implicit diffusion models for continuous super-resolution</h4></a> 
     S Gao, X Liu, B Zeng, S Xu, Y Li, X Luo, J Liu, X Zhen, B Zhang<br>
     Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2023, pp. 10021-10030<br>
-    <a href="https://github.com/Ree1s/IDM"><h5>code</h5></a>
+    <a href="https://github.com/Ree1s/IDM"> <b>[code]</b> </a>
 </div><br>
 <div>
-    <img align="left" width="200" height="100" src="{{site.baseurl}}/images/paper/yin2019hyperspectral.png" style="padding-right:20px; padding-top:20px"/>
-    <h4>Hyperspectral image classification using CapsNet with well-initialized shallow layers</h4>
+    <!-- <img align="left" width="200" height="100" src="{{site.baseurl}}/images/paper/yin2019hyperspectral.png" style="padding-right:20px; padding-top:20px"/> -->
+    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiSauecAAAAJ&citation_for_view=QiSauecAAAAJ:fPk4N6BV_jEC"><h4>Hyperspectral image classification using CapsNet with well-initialized shallow layers</h4></a>
     J Yin, S Li, H Zhu, X Luo<br>
     IEEE Geoscience and Remote Sensing Letters 16 (7), 1095-1099, 2019<br>
-    [PDF]({{site.baseurl}}/documents/pdf/yin2019hyperspectral.pdf) [Bib]({{site.baseurl}}/documents/bib/yin2019hyperspectral.txt)
+    <!-- [PDF]({{site.baseurl}}/documents/pdf/yin2019hyperspectral.pdf) [Bib]({{site.baseurl}}/documents/bib/yin2019hyperspectral.txt) -->
 </div><br>
 <div>
     <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiSauecAAAAJ&citation_for_view=QiSauecAAAAJ:2osOgNQ5qMEC"><h4>A regional image fusion based on similarity characteristics</h4></a> 
@@ -42,10 +81,10 @@ We try to include links for all of our papers. Some of the links open PDFs, othe
     IEEE Transactions on Aerospace and Electronic Systems 50 (2), 1374-1389, 2014<br>
 </div><br>
 <div>
-    <h4>Variational self-distillation for remote sensing scene classification</h4>
+    <a href="https://ieeexplore.ieee.org/iel7/36/4358825/09606819.pdf"><h4>Variational self-distillation for remote sensing scene classification</h4></a>
     Y Hu, X Huang, X Luo, J Han, X Cao, J Zhang<br>
     IEEE Transactions on Geoscience and Remote Sensing 60, 1-13, 2022<br>
-    <a href="https://ieeexplore.ieee.org/iel7/36/4358825/09606819.pdf"><strong>PDF</strong></a>
+    
 </div><br>
 <div>
     <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QiSauecAAAAJ&citation_for_view=QiSauecAAAAJ:7PzlFSSx8tAC"> <h4>No-reference assessment on haze for remote-sensing images</h4></a>
@@ -78,9 +117,9 @@ We try to include links for all of our papers. Some of the links open PDFs, othe
     IEEE Transactions on Geoscience and Remote Sensing 55 (7), 3982-3996, 2017<br>
 </div><br>
 <div>
-    <h4>Unsupervised band selection method based on importance-assisted column subset selection</h4>
+    <a href="https://ieeexplore.ieee.org/abstract/document/8567990"><h4>Unsupervised band selection method based on importance-assisted column subset selection</h4></a>
     X Luo, Z Shen, R Xue, H Wan<br>
-    IEEE Access 7, 517-527, 2018<br>
+    IEEE Access 7, 517-527, 2019<br>
     [<strong>pdf</strong>](https://ieeexplore.ieee.org/iel7/6287639/6514899/08567990.pdf)
 </div><br>
 <div>
@@ -114,42 +153,42 @@ We try to include links for all of our papers. Some of the links open PDFs, othe
     Remote Sensing 11 (5), 492, 2019<br>
 </div><br>
 <div>
-    <h4>Cross-domain attention network for unsupervised domain adaptation crowd counting</h4>
+    <a href="https://ieeexplore.ieee.org/document/9787065"><h4>Cross-domain attention network for unsupervised domain adaptation crowd counting</h4></a>
     A Zhang, J Xu, X Luo, X Cao, X Zhen<br>
     IEEE Transactions on Circuits and Systems for Video Technology 32 (10), 6686-6699, 2022<br>
 </div><br>
 <div>
-    <h4>Hierarchical self-distilled feature learning for fine-grained visual categorization</h4>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9614660"><h4>Hierarchical self-distilled feature learning for fine-grained visual categorization</h4></a>
     Y Hu, X Jiang, X Liu, X Luo, Y Hu, X Cao, B Zhang, J Zhang<br>
     IEEE Transactions on Neural Networks and Learning Systems, 2021<br>
 </div><br>
 <div>
-    <h4>SiUNet3+-CD: A full-scale connected Siamese network for change detection of VHR images</h4>
+    <a href="https://www.tandfonline.com/doi/full/10.1080/22797254.2022.2047795"><h4>SiUNet3+-CD: A full-scale connected Siamese network for change detection of VHR images</h4></a>
     B Zhao, P Tang, X Luo, L Li, S Bai<br>
     European Journal of Remote Sensing 55 (1), 232-250, 2022<br>
 </div><br>
 <div>
-    <h4>Shadow detection in remote sensing images based on weighted edge gradient ratio</h4>
+    <a href="https://ieeexplore.ieee.org/document/6946470"><h4>Shadow detection in remote sensing images based on weighted edge gradient ratio</h4></a>
     B Pan, J Wu, Z Jiang, X Luo<br>
     2014 IEEE Geoscience and Remote Sensing Symposium, 505-508, 2014<br>
 </div><br>
 <div>
-    <h4>Multibranch spatial-channel attention for semantic labeling of very high-resolution remote sensing images</h4>
+    <a href="https://ieeexplore.ieee.org/document/9165842"><h4>Multibranch spatial-channel attention for semantic labeling of very high-resolution remote sensing images</h4></a>
     B Han, J Yin, X Luo, X Jia<br>
     IEEE Geoscience and Remote Sensing Letters 18 (12), 2167-2171, 2020<br>
 </div><br>
 <div>
-    <h4>LG: A clustering framework supported by point proximity relations</h4>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320320300704"><h4>LG: A clustering framework supported by point proximity relations</h4></a>
     H Qv, J Yin, X Luo<br>
     Pattern Recognition 103, 107265, 2020<br>
 </div><br>
 <div>
-    <h4>A hierarchical superpixel aggregation model for hyperspectral image</h4>
+    <a href="https://ieeexplore.ieee.org/abstract/document/8127819"><h4>A hierarchical superpixel aggregation model for hyperspectral image</h4></a>
     B Han, J Yin, X Luo, H Qv<br>
     2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2017<br>
 </div><br>
 <div>
-    <h4>Boosting variational inference with margin learning for few-shot scene-adaptive anomaly detection</h4>
+    <a href="https://ieeexplore.ieee.org/document/9976040"><h4>Boosting variational inference with margin learning for few-shot scene-adaptive anomaly detection</h4></a>
     X Huang, Y Hu, X Luo, J Han, B Zhang, X Cao<br>
     IEEE Transactions on Circuits and Systems for Video Technology, 2022<br>
 </div><br>
