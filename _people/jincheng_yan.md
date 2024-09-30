@@ -6,7 +6,7 @@ joined: 2024
 title: Yan Jincheng
 ---
 
-<!-- <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom"> -->
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 ### Contact
 
