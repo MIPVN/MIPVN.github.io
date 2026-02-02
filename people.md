@@ -67,9 +67,9 @@ permalink: /people/
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://scholar.google.com/citations?hl=en&user=4sXuGXAAAAAJ">Yutao Hu</a></td>
+      <td><a href="https://cs.seu.edu.cn/huyutao/main.htm">Yutao Hu</a></td>
       <td>Graduate Student (2021-2023)</td>
-      <td>Postdoc, The University of Hong Kong</td>
+      <td>Prof, Southeast University</td>
     </tr>
     <tr>
       <td>Sen Li</td>
@@ -89,7 +89,7 @@ permalink: /people/
     <tr>
       <td>Chengxi Wu</td>
       <td>Graduate Student (2020-2022)</td>
-      <td>理想</td>
+      <td>字节跳动</td>
     </tr>
     <tr>
       <td>Yang Yu</td>
