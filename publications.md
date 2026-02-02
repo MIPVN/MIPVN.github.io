@@ -94,7 +94,7 @@ permalink: /publication/
 <h2 class="pub-year-heading">2025</h2>
 
 <div class="pub-item">
-    <a class="pub-title" href="https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=HySaDe-Mamba%3A+A+Mamba-based+Network+for+Hyperspectral+Salient+Object+Detection&btnG=">HySaDe-Mamba: A Mamba-based Network for Hyperspectral Salient Object Detection</a><br>
+    <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/11215814/">HySaDe-Mamba: A Mamba-based Network for Hyperspectral Salient Object Detection</a><br>
     <span class="pub-authors">L Zhang, H Zhang, <strong>X Luo</strong>, L Bian, X Zhen</span><br>
     <span class="pub-venue">IEEE Transactions on Circuits and Systems for Video Technology, 2025</span>
 </div>
