@@ -29,7 +29,7 @@ nav:
     href:           "/pictures"
 #   - name:           "abstracts"
 #     href:           "/abstracts"
-  - name:            <strong>lab teachings</strong>
+  - name:            <strong>presentations</strong>
     href:           "/presentations"
 
 # Sass

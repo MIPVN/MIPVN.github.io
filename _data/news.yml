@@ -1,15 +1,10 @@
+# 这页面用于更新新闻，会展示在HOME界面
+
 - date: 2024-09-29
   details: Two students joined MIPVN!!!
 
 - date: 2024-09-05
   details: Our new webpage have changed to <a href='https://mipvn.github.io'> MIPVN </a>
 
-- date: 2022-07-12
-  details: "Richard gave a lab teaching on neural tangent kernels: <a href='https://docs.google.com/presentation/d/1YARbyIXu3VQA0gLaqEgHa2GTdX71_fPTIXkxQMUEZho/edit#slide=id.p'> WTH is NTK? </a>"
-
-- date: 2023-07-01
-  details: It's job hunting season so if anyone is looking for talent, Richard Lange, Ben Baker, Ilenna Jones, David Barack (Platt Lab), and Justin Brantley are all on the market!
-  
-- date: 2022-10-28
-  details: Jordan Matelsky shared a <a href="/2022/10/28/LabTeaching-Docker-for-Science/">Lab Teaching on using Docker for reprducible science</a>.
-  
+- date: 2026-01-31
+  details: "We held our annual group meeting and party on Jan 31st, 2026. Check out the photos and videos in <a href='/pictures/'>Pictures</a>!"

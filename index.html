@@ -3,75 +3,77 @@ layout: default
 ---
 
 <div class='container'>
-    <header class="masthead text-center">
+  <header class="masthead">
+    
+    <div style="margin-bottom: 30px; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+      <!-- 更新这里的文件可以改变主页的照片 -->
+      <img class='img-responsive' src="/images/home/2026_01_31_课题组年会/课题组年会合影.jpg" style="width: 100%; object-fit: cover;" alt="Lab Group Photo" />
+    </div>
 
-      <img class='img-responsive center-block' src="/images/home/2024_01_all_members.jpg" width="100%" height="100%" />
+    <div style="text-align: left; margin-bottom: 40px;">
+      <h1 style="font-weight: 800; color: #2c3e50; font-size: 36px; margin-bottom: 15px;"> 
+        Welcome to MIPVN Lab! 
+      </h1>
+      <p style="font-size: 18px; line-height: 1.6; color: #546e7a; text-align: justify;">
+        The <b>Multimodal Information Perception and Visual Navigation Lab</b> is a leading research group directed by 
+        <a href="/about/" style="color: #007bff; text-decoration: none;">Prof. Xiaoyan Luo</a>. 
+        We are part of the Image Processing Center at the School of Astronautics, Beihang University, China.
+      </p>
+    </div>
+
+    <div class="row" style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 50px;">
       
-      <!-- <p style="font-size: 24px;">  -->
-      <h1 style="text-align: left;"> <b> Welcome to MIPVN Lab! </b></h1>
-      <p></p>
-      <p style="text-align: justify;"> Multimodal Information Perception and Visual Navigation Lab is a research group directed by Prof. Xiaoyan Luo at Image Processing Center, School of Astronautics, Beihang University, China.</p>
-      <hr> <!-- 上方的横线 -->
-      <h3 style="text-align: left;"> Research foucus: </h3>
-      <p>
-      <i>
-        Multimodal Information Perception. <br> 
-        Visual  language Navigation.<br>
-        Remote Sensing Image Processing.<br>
-        Medical Image Processing.
-      </i>
-      </p>
-      <hr> <!-- 下方的横线 -->
-
-      <span style="display: block; margin-bottom: 3em"></span>
-
-      <h3 style="text-align: left;"> Recruitment and Incentives: </h3>
-      <p style="text-align: justify;">
-        We warmly welcome students with a pioneering and innovative spirit, as well as a diligent 
-        and studious attitude, to join our research group for graduate-level research and 
-        undergraduate research intenship. 
-        The laboratory provides generous and diverse research subsidies and team bonuses. 
-        Various opportunities for academic and technical exchanges at home and abroad are provided for 
-        master's and doctoral students, with the laboratory covering related expenses.
-      </p>
-
-      <span style="display: block; margin-bottom: 3em"></span>
-
-      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
-        <div style="text-align:left">
-          <h3> Recent News </h3>   
-          <!-- 只展示最近90天新闻 -->
-          <!--<u>Happenings of the last few months</u> -->
-          <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 7776000 }}{% endcapture %}
-              <ul style="list-style-position:outside;padding:18px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 }}{% endcapture %}
-                  {% if date > now %}
-                    <li>
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-          </div>
-        </div >
+      <div style="flex: 1; min-width: 300px; padding: 25px; border-left: 4px solid #0056b3; background: #f8f9fa;">
+        <h3 style="margin-top: 0; font-weight: bold; color: #0056b3;">Research Focus</h3>
+        <ul style="list-style: none; padding-left: 0; line-height: 2; font-size: 16px; font-weight: 500; color: #34495e;">
+          <li>🔹 Multimodal Information Perception</li>
+          <li>🔹 Vision-Language Navigation (VLN)</li>
+          <li>🔹 Remote Sensing Image Processing</li>
+          <li>🔹 Medical Image Processing</li>
+        </ul>
       </div>
 
+      <div style="flex: 1.5; min-width: 300px; padding: 25px; background: #fff; border: 1px dashed #ced4da; border-radius: 8px;">
+        <h3 style="margin-top: 0; font-weight: bold; color: #e67e22;">Recruitment</h3>
+        <p style="text-align: justify; font-size: 15px; color: #616161; line-height: 1.6;">
+          We are looking for self-motivated <b>graduate students</b> and <b>undergraduate interns</b> with a passion for innovation. 
+          Our lab provides a supportive environment with generous research subsidies, performance bonuses, and fully funded opportunities for domestic and international academic exchanges.
+        </p>
+      </div>
+    </div>
 
+    <div style="background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%); padding: 35px; border-radius: 15px; border: 1px solid #d1e9ff;">
+      <div style="display: flex; align-items: center; margin-bottom: 20px;">
+        <h3 style="margin: 0; font-weight: bold; color: #004085;">Recent News</h3>
+        <div style="flex-grow: 1; height: 1px; background: #b8daff; margin-left: 20px;"></div>
+      </div>
 
-      <span style="display: block; margin-bottom: 3em"></span>
+      <div class="news-list">
+        {% capture one_year_ago %}{{ 'now' | date: '%s' | minus: 31104000 }}{% endcapture %}
+      
+        {% assign sorted_news = site.data.news | sort: 'date' | reversed %}
+      
+        <ul style="list-style: none; padding: 0;">
+          {% for new in sorted_news %}
+            {% capture new_date %}{{ new.date | date: '%s' }}{% endcapture %}
+      
+            {% if new_date > one_year_ago %}
+              <li style="margin-bottom: 15px; display: flex; align-items: flex-start; gap: 12px;">
+                <span class="post-date" style="background: #007bff; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; min-width: 65px; text-align: center;">
+                  {{ new.date | date: "%b %Y" }}
+                </span>
+                <span style="font-size: 15px; color: #2c3e50; line-height: 1.5;">{{ new.details }}</span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
+    <footer style="margin-top: 60px; padding: 40px 0; border-top: 1px solid #eee; color: #95a5a6; font-size: 14px;">
+      <p>Department of Aerospace Information Engineering, Beihang University</p>
+      <p>© 2026 MIPVN Lab. All Rights Reserved.</p>
+    </footer>
 
-      <!-- <a class="twitter-timeline" href="https://twitter.com/KordingLab" data-widget-id="695051708246941697">Tweets by @KordingLab</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
-
-      <span style="display: block; margin-bottom: 3em"></span>
-      Department of AeroSpace Information Engineering at Beihang University
-      <span style="display: block; margin-bottom: 3em"></span>
-
-    </header>
+  </header>
 </div>

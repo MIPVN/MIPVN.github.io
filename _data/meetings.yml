@@ -1,0 +1,16 @@
+# 用于更新日常meetings
+- date: "2024-09-09"
+  name: "---"
+  topic: "Past Lab Meeting (Should not show)"
+
+- date: "2025-05-10"
+  name: "Zhang San"
+  topic: "Advanced Multimodal Perception"
+
+- date: "2025-02-15"
+  name: "Li Si"
+  topic: "Future Discussion"
+
+- date: "2025-12-01"
+  name: "Wang Wu"
+  topic: "End of Year Review"
