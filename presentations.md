@@ -78,8 +78,7 @@ permalink: /presentations/
         <p style="font-size: 18px; line-height: 1.8; color: #455a64; text-align: justify; margin: 0;">
             Every week, we get together 
             <span style="background: rgba(0,123,255,0.08); padding: 2px 6px; border-radius: 4px; color: #0056b3; font-weight: 500;">mix of virtual and in-person</span> 
-            for lab presentations 
-            <span style="border-bottom: 2px dashed #e67e22; color: #e67e22; font-weight: bold;">(with food! sometimes)</span>. 
+            for lab presentations.
         </p>
 
         <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(0,86,179,0.1); font-size: 17px; color: #607d8b; line-height: 1.6;">

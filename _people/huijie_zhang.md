@@ -21,5 +21,5 @@ Hello, my name is Zhang Huijie, and I am an undergraduate student set to graduat
 
 ### Research Interests
 
-Multi-view Bird's Eye View (BEV)
+Deep Learning, Image Stitching
 
