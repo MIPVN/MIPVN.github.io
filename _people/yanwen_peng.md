@@ -22,6 +22,6 @@ Studied in Beihang University as an undergraduate and joined the research group 
 
 ### Research Interests
 
-Deep learning, Remote sensing image processing
+Deep learning, Remote sensing image processing, Diffusion Models, Image Restoration
 
 

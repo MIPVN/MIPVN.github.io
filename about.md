@@ -12,7 +12,7 @@ permalink: /about/
 **Beihang University**
 
 **Principal Investigator:** 
-* [Prof. Xiaoyan Luo](https://scholar.google.com/citations?user=QiSauecAAAAJ&hl=zh-CN)
+* [Prof. Xiaoyan Luo](http://www.sa.buaa.edu.cn/info/1117/11071.htm)
 
 **Affiliations:** 
 * [School of Astronautics](http://www.sa.buaa.edu.cn/)
