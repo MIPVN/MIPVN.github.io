@@ -1,9 +1,9 @@
 ---
-name: Wang Yun  
+name: Yun Wang 
 position: gradstudent
 avatar: wangyun.jpg  
 joined: 2025  
-title: Wang Yun
+title: Yun Wang 
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

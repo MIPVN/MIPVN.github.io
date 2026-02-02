@@ -1,9 +1,9 @@
 ---
-name: Zhang Huijie  
+name: Huijie Zhang
 position: gradstudent
 avatar: zhj.jpg  
 joined: 2024  
-title: Zhang Huijie
+title: Huijie Zhang
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

@@ -1,9 +1,9 @@
 ---
-name: Lu Feiyang  
+name: Feiyang Lu
 position: gradstudent
 avatar: lufeiyang.jpg  
 joined: 2025  
-title: Lu Feiyang
+title: Feiyang Lu
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

@@ -1,9 +1,9 @@
 ---
-name: Zhan Qihui
+name: Qihui Zhan
 position: gradstudent
 avatar: zhanqihui.jpg
 joined: 2025
-title: Zhan Qihui
+title: Qihui Zhan
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
