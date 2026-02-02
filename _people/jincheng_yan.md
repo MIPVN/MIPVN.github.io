@@ -1,26 +1,26 @@
 ---
-name: Yan Jincheng
+name: Jincheng Yan
 position: gradstudent
 avatar: yjc.jpg
 joined: 2024
-title: Yan Jincheng
+title: Jincheng Yan
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 ### Contact
 
-<i class="fa fa-envelope-o"></i>  `buaayanjc@buaa.edu.cn`<br>
+<i class="fa fa-envelope-o"></i>  `yan_jc@buaa.edu.cn`<br>
 
 <hr>
 
 ### Self-introduction
 
-Hello. I'm Yan Jincheng, an undergraduate student from Beihang University. I will graduate in the summer of 2024 and become a doctoral student under Associate Professor Luo Xiaoyan. My research focus on the field of Multi-modal Learning. And I warmly welcome everyone to have academic exchanges with me. In my free time, I enjoy playing sports, watching videos, and being passionate about traveling with friends.
+Jincheng Yan, received his B.S. degree in School of Astronautics from Beihang University in 2024. He is currently pursuing his D.Eng. degree at the School of Astronautics, Beihang University, under the guidance of Associate Professor Xiaoyan Luo.
 
 
 ### Research Interests
 
-Multimodal Learning and Visual Language Model.
+Multimodal Learning, Visual Language Model, Person Re-identification.
 
 
